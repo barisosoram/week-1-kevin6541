@@ -22,6 +22,7 @@ class Teams:
         
     def __len__(self):
         return len(self.__myTeam)
+    
 
 def main():
   classmates = Teams(['John', 'Steve', 'Tim'])
